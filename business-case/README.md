@@ -1,4 +1,4 @@
-# Alpha Manufacturing – Workforce Planning Business Case
+# Workforce Planning Business Case
 
 ---
 # Alpha Manufacturing – Workforce Planning Business Case
