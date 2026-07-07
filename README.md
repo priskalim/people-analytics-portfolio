@@ -89,7 +89,7 @@ Bachelor's Degree – International Business
 
 ## 📄 Executive Resume
 
-Download my Executive [📄 Resume (PDF)](resume/) 
+Download my Executive [📄 Resume (PDF)](resume/priscila-lima) 
 
 ---
 
