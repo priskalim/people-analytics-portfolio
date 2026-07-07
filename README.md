@@ -95,11 +95,15 @@ Download my Executive Resume (PDF)
 
 ## 📬 Contact
 
+📍 Salto – São Paulo – Brazil
 
-**LinkedIn**
-
+🔗 LinkedIn
 www.linkedin.com/in/priscilalimagomes
 
-**Location**
+💻 GitHub
+https://github.com/priskalim/people-analytics-portfolio
 
-Salto – São Paulo – Brazil
+✉ Email
+priskalim@yahoo.com.br
+
+
