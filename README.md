@@ -24,6 +24,10 @@ With over 15 years of experience in Workforce Planning and People Analytics, I h
 
 ## ⭐ Featured Project
 
+<a href="business-case/"> <p align="center">
+  <img src="assets/images/dash-power-bi-p3.png" width="800">
+</a> </p>
+
 ### Alpha Manufacturing – Workforce Planning Business Case
 
 A complete People Analytics case study developed to demonstrate data-driven workforce planning, executive reporting, KPI analysis, and HR dashboard development.
@@ -48,38 +52,49 @@ A complete People Analytics case study developed to demonstrate data-driven work
 | [🎨 Brand Book](brand-book/brand-book-priscila-lima.pdf) | Personal visual identity and branding guide |
 
 
+## 🛠 Technical Skills
 
-  
+### Workforce Planning
 
-## Technical Skills
+- Headcount Planning
+- Capacity Planning
+- Workforce Modeling
+- Organizational Design
+
+### People Analytics
+
+- HR Metrics
+- Turnover Analysis
+- Absenteeism Analysis
+- KPI Development
+- Executive Reporting
+
+### Tools
 
 - Power BI
 - Excel
 - Power Query
 - DAX
 - PowerPoint
+  
+## 🎓 Education
+
+MBA – Human Resources Management
+
+Postgraduate – Organizational Psychology
+
+Bachelor's Degree – International Business
+
+
+## 📄 Executive Resume
+
+Download my Executive Resume (PDF)
 
 ---
 
-## Featured Projects
 
-<a href="business-case/"> <p align="center">
-  <img src="assets/images/dash-power-bi-p3.png" width="800">
-</a> </p>
+## 📬 Contact
 
-### Business Case – Alpha Manufacturing
-
-A complete Workforce Planning case including:
-
-- Executive Presentation
-- Excel Dashboard
-- Power BI Dashboard
-- Data Analysis
-- Strategic Recommendations
-
----
-
-## Contact
 
 **LinkedIn**
 
