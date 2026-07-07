@@ -88,7 +88,7 @@ Bachelor's Degree – International Business
 
 ## 📄 Executive Resume
 
-Download my Executive Resume (PDF)
+Download my Executive [📄 Resume (PDF)](resume/) 
 
 ---
 
