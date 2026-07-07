@@ -101,7 +101,7 @@ Download my Executive [📄 Resume (PDF)](resume/priscila-lima.pdf)
 
 🔗 [LinkedIn](https://www.linkedin.com/in/priscilalimagomes)
 
-💻 [GitHub Portfolio](priskalim.github.io/people-analytics-portfolio)
+💻 [GitHub Portfolio](https://priskalim.github.io/people-analytics-portfolio/)
 
 ✉️ [priskalim@yahoo.com.br](mailto:priskalim@yahoo.com.br)
 
