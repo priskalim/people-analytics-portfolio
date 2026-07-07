@@ -1,12 +1,21 @@
 # Alpha Manufacturing – Workforce Planning Business Case
 
-## Overview
+---
+# Alpha Manufacturing – Workforce Planning Business Case
 
-This project demonstrates a Workforce Planning and People Analytics approach to identify the root causes of turnover and absenteeism in a manufacturing environment.
+This project was developed as part of my professional portfolio to demonstrate practical expertise in Workforce Planning and People Analytics.
+
+The business case is based on a fictional manufacturing company and presents a complete analytical approach, from data exploration to executive recommendations.
 
 ---
 
-## Business Challenge
+## Overview
+
+This project demonstrates...
+
+---
+
+## Business Problem
 
 Alpha Manufacturing was experiencing:
 
@@ -19,7 +28,7 @@ The objective was to analyze HR data and provide strategic recommendations suppo
 
 ---
 
-## Deliverables
+## Project Deliverables
 
 📄 Business Case Report
 
@@ -44,13 +53,31 @@ The objective was to analyze HR data and provide strategic recommendations suppo
 - KPI Analysis
 - Data Storytelling
 - Executive Reporting
+  
+## Tools
 
+- Power BI
+- Microsoft Excel
+- Power Query
+- DAX
+- PowerPoint
+  
+## Key KPIs
+
+- Headcount
+- Occupancy Rate
+- Turnover Rate
+- Absenteeism Rate
+- Overtime
+- Average Tenure
+  
 ---
 
 ## Files
 
-- business-case-alpha-manufacturing.pdf
-- executive-presentation.pdf
-- dashboard-power-bi.pdf
-- dashboard-excel.pdf
-- alpha-manufacturing-dataset.xlsx
+- **Business Case Report** – Complete business case document.
+- **Executive Presentation** – Presentation prepared for leadership.
+- **Power BI Dashboard** – Interactive HR dashboard.
+- **Excel Dashboard** – Executive dashboard built in Excel.
+- **Sample Dataset** – Fictional dataset used for the analyses.
+
