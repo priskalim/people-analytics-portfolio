@@ -11,7 +11,7 @@ The business case is based on a fictional manufacturing company and presents a c
 
 ## Overview
 
-This project demonstrates...
+This project demonstrates a Workforce Planning and People Analytics approach to identify the root causes of turnover and absenteeism in a manufacturing environment through data analysis, dashboards, and strategic recommendations.
 
 ---
 
@@ -70,6 +70,16 @@ The objective was to analyze HR data and provide strategic recommendations suppo
 - Absenteeism Rate
 - Overtime
 - Average Tenure
+
+  ## Business Impact
+
+The proposed recommendations aim to:
+
+- Reduce voluntary turnover
+- Improve workforce stability
+- Increase occupancy rate
+- Support workforce planning decisions
+- Enhance operational productivity
   
 ---
 
