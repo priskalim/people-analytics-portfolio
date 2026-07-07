@@ -27,7 +27,7 @@ With over 15 years of experience in Workforce Planning and People Analytics, I h
 
 <a href="business-case/"> <p align="center">
   <img src="assets/images/dash-power-bi-p3.png" width="800">
-</a> </p>
+</p></a> 
 
 ### Alpha Manufacturing – Workforce Planning Business Case
 
