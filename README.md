@@ -11,10 +11,10 @@ Welcome to my professional portfolio.
 
 With over 15 years of experience in Workforce Planning and People Analytics, I specialize in transforming HR data into strategic insights that support business decisions.
 
-[About](#about) • [Skills](#skills) • [Projects](#featured-project) • [Resume](#resume) • [Contact](#contact)
+[About](#about)  • [Projects](#featured-project) • [Skills](#skills) • [Resume](#resume) • [Contact](#contact)
 
 ---
-
+<a id="about"></a>
 ## About
 
 With over 15 years of experience in Workforce Planning and People Analytics, I have supported manufacturing operations by developing workforce planning strategies, HR analytics, executive dashboards, and KPI monitoring that enable data-driven decision-making.
@@ -22,7 +22,7 @@ With over 15 years of experience in Workforce Planning and People Analytics, I h
 
 ---
 
-
+<a id="featured-project"></a>
 ## ⭐ Featured Project
 
  <p align="center"><a href="business-case/">
@@ -52,7 +52,7 @@ A complete People Analytics case study developed to demonstrate data-driven work
 | [📉 Excel Dashboard](business-case/dashboard-excel.pdf) | Executive dashboard developed in Microsoft Excel |
 | [🎨 Brand Book](brand-book/brand-book-priscila-lima.pdf) | Personal visual identity and branding guide |
 
-
+<a id="skills"></a>
 ## 🛠 Technical Skills
 
 ### Workforce Planning
@@ -86,13 +86,14 @@ Postgraduate – Organizational Psychology
 
 Bachelor's Degree – International Business
 
+<a id="resume"></a>
 
 ## 📄 Executive Resume
 
 Download my Executive [📄 Resume (PDF)](resume/priscila-lima.pdf) 
 
 ---
-
+<a id="contact"></a>
 
 ## 📬 Contact
 
