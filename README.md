@@ -20,6 +20,8 @@ With over 15 years of experience in Workforce Planning and People Analytics, I h
 
 
 ---
+
+
 ## ⭐ Featured Project
 
 ### Alpha Manufacturing – Workforce Planning Business Case
@@ -34,14 +36,18 @@ A complete People Analytics case study developed to demonstrate data-driven work
 - 📑 Executive Presentation
 - 📂 Sample Dataset
 
+  
+
 ## 📊 Portfolio Highlights
 
 | Project | Description |
 |---------|-------------|
-| 📈 Business Case | Workforce Planning case study for a fictional manufacturing company |
-| 📊 Power BI Dashboard | Interactive HR dashboard with KPIs and workforce metrics |
-| 📉 Excel Dashboard | Executive dashboard developed in Microsoft Excel |
-| 🎨 Brand Book | Personal visual identity and branding guide |
+| [📈 Business Case](business-case/) | Workforce Planning case study for a fictional manufacturing company |
+| [📊 Power BI Dashboard](business-case/dashboard-power-bi.pdf) | Interactive HR dashboard with KPIs and workforce metrics |
+| [📉 Excel Dashboard](business-case/dashboard-excel.pdf) | Executive dashboard developed in Microsoft Excel |
+| [🎨 Brand Book](brand-book/brand-book-priscila-lima.pdf) | Personal visual identity and branding guide |
+
+
 
   
 
