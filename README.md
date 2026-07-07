@@ -64,7 +64,7 @@ A complete People Analytics case study developed to demonstrate data-driven work
 ## Featured Projects
 
 <a href="business-case/"> <p align="center">
-  <img src="assets/images/dash-power-bi-p1.png" width="800">
+  <img src="assets/images/dash-power-bi-p3.png" width="800">
 </a> </p>
 
 ### Business Case – Alpha Manufacturing
