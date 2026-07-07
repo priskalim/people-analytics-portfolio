@@ -1,3 +1,4 @@
+![GitHub Banner](assets/images/github-banner.png)
 # Priscila Lima
 
 ### Senior Workforce Planning & People Analytics
