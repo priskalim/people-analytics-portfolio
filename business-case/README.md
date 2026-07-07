@@ -1,4 +1,4 @@
-# Workforce Planning Business Case
+# People Analytics & Workforce Planning Business Case
 
 ---
 # Alpha Manufacturing – Workforce Planning Business Case
