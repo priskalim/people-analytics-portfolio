@@ -53,7 +53,7 @@ IBM HR Analytics
    │  Attrition  │
    └─────────────┘
 
-
+```
 
 **Importante:** esse bloco tem um segundo ` ``` ` interno para o diagrama. No GitHub funciona corretamente.
 
@@ -61,7 +61,7 @@ IBM HR Analytics
 
 ```markdown
 ---
-
+```
 ## Data
 
 **Dataset:** IBM HR Analytics Employee Attrition & Performance
@@ -267,6 +267,7 @@ The complete pipeline was validated after the Gold layer was created.
 ### Workforce validation
 
 ```text
+```
 Employees: 1470
 Attritions: 237
 Attrition Rate: 16.12%
@@ -281,11 +282,14 @@ attrition_by_role_gold
 ### Bloco 12 — Project Structure
 
 ```markdown
+
+```
 ---
 
 ## Project Structure
 
 ```text
+```
 people-analytics-attrition/
 │
 ├── 01_Bronze_Ingestion.py
@@ -298,6 +302,7 @@ people-analytics-attrition/
 ### Bloco 13 — Medallion Architecture
 
 ```markdown
+```
 ---
 
 ## Medallion Architecture
@@ -317,6 +322,7 @@ Validated, standardized and deduplicated employee data prepared for analysis.
 Business-oriented analytical tables containing People Analytics indicators.
 
 ```text
+```
 Bronze
   │
   │ Data ingestion
@@ -336,7 +342,7 @@ Dashboard
 ### Bloco 14 — Business Value
 
 ```markdown
----
+```
 
 ## Business Value
 
