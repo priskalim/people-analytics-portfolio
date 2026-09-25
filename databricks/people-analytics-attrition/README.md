@@ -269,10 +269,11 @@ attrition_by_overtime_gold
 attrition_by_role_gold
 
 
+---
+
 ## Project Structure
 
 ```text
-```
 people-analytics-attrition/
 │
 ├── 01_Bronze_Ingestion.py
@@ -280,7 +281,7 @@ people-analytics-attrition/
 ├── 03_Gold_People_Analytics.py
 ├── dashboard_attrition.png
 └── README.md
-
+```
 
 ## Medallion Architecture
 
@@ -298,8 +299,8 @@ Validated, standardized and deduplicated employee data prepared for analysis.
 
 Business-oriented analytical tables containing People Analytics indicators.
 
-```text
-```
+---
+
 Bronze
   │
   │ Data ingestion
