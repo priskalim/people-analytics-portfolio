@@ -299,25 +299,25 @@ Validated, standardized and deduplicated employee data prepared for analysis.
 
 Business-oriented analytical tables containing People Analytics indicators.
 
-
-
+```text
 Bronze
-  │
-  │ Data ingestion
-  ▼
+   │
+   │ Data ingestion
+   ▼
 Silver
-  │
-  │ Data quality & transformation
-  ▼
+   │
+   │ Data quality & transformation
+   ▼
 Gold
-  │
-  │ Business indicators
-  ▼
+   │
+   │ Business indicators
+   ▼
 Dashboard
+```
 
 ---
 
-### Business Value
+## Business Value
 
 The project demonstrates how HR data can be transformed into structured analytical information to support People Analytics initiatives.
 
