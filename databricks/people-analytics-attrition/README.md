@@ -54,14 +54,6 @@ IBM HR Analytics
    └─────────────┘
 
 ```
-
-**Importante:** esse bloco tem um segundo ` ``` ` interno para o diagrama. No GitHub funciona corretamente.
-
-### Bloco 4 — Data
-
-```markdown
----
-```
 ## Data
 
 **Dataset:** IBM HR Analytics Employee Attrition & Performance
