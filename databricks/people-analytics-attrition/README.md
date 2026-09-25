@@ -299,7 +299,7 @@ Validated, standardized and deduplicated employee data prepared for analysis.
 
 Business-oriented analytical tables containing People Analytics indicators.
 
----
+
 
 Bronze
   │
@@ -315,7 +315,7 @@ Gold
   ▼
 Dashboard
 
-
+---
 
 ### Business Value
 
