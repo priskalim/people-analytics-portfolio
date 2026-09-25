@@ -271,7 +271,8 @@ attrition_by_role_gold
 
 ## Project Structure
 
-
+```text
+```
 people-analytics-attrition/
 │
 ├── 01_Bronze_Ingestion.py
