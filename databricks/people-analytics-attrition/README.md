@@ -258,8 +258,6 @@ The complete pipeline was validated after the Gold layer was created.
 
 ### Workforce validation
 
-```text
-```
 Employees: 1470
 Attritions: 237
 Attrition Rate: 16.12%
@@ -274,14 +272,10 @@ attrition_by_role_gold
 ### Bloco 12 — Project Structure
 
 ```markdown
-
 ```
----
-
 ## Project Structure
 
-```text
-```
+
 people-analytics-attrition/
 │
 ├── 01_Bronze_Ingestion.py
@@ -290,12 +284,6 @@ people-analytics-attrition/
 ├── dashboard_attrition.png
 └── README.md
 
-
-### Bloco 13 — Medallion Architecture
-
-```markdown
-```
----
 
 ## Medallion Architecture
 
@@ -331,12 +319,7 @@ Dashboard
 
 
 
-### Bloco 14 — Business Value
-
-```markdown
-```
-
-## Business Value
+### Business Value
 
 The project demonstrates how HR data can be transformed into structured analytical information to support People Analytics initiatives.
 
@@ -365,7 +348,6 @@ The analysis has important limitations:
 - The observed attrition rate represents the proportion of records where `Attrition = Yes`.
 - Differences between groups should not be interpreted as causal effects.
 - Further statistical and multivariate analysis would be required to investigate relationships between variables.
-
 
 ---
 
