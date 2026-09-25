@@ -41,13 +41,39 @@ A complete People Analytics case study developed to demonstrate data-driven work
 - 📑 Executive Presentation
 - 📂 Sample Dataset
 
-  
+  ---
+
+### 🧠 People Analytics — Employee Attrition
+
+<p align="center">
+<a href="databricks/people-analytics-attrition/">
+<img src="databricks/people-analytics-attrition/dashboard_attrition.png" width="900">
+</a>
+</p>
+
+An end-to-end People Analytics project developed in **Databricks** using **Python/PySpark**, applying the **Medallion Architecture** to transform employee data into analytical insights.
+
+**Project Includes**
+
+- 🥉 Bronze — Data Ingestion
+- 🥈 Silver — Data Quality & Transformation
+- 🥇 Gold — People Analytics
+- 📊 Dashboard — Attrition Analysis
+- 🐍 Python / PySpark
+- ⚡ Apache Spark
+- 🗄️ Delta Lake
+- 📐 Medallion Architecture
+
+[View Databricks Project →](databricks/people-analytics-attrition/)
+
+
 
 ## 📊 Portfolio Highlights
 
 | Project | Description |
 |---------|-------------|
 | [📈 Business Case](business-case/) | Workforce Planning case study for a fictional manufacturing company |
+| [🧠 Employee Attrition — Databricks](databricks/people-analytics-attrition/) | End-to-end People Analytics project using Databricks, Python/PySpark and Medallion Architecture |
 | [📊 Power BI Dashboard](business-case/dashboard-power-bi.pdf) | Interactive HR dashboard with KPIs and workforce metrics |
 | [📉 Excel Dashboard](business-case/dashboard-excel.pdf) | Executive dashboard developed in Microsoft Excel |
 | [🎨 Brand Book](brand-book/brand-book-priscila-lima.pdf) | Personal visual identity and branding guide |
