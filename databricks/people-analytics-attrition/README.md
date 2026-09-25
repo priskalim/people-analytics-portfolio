@@ -4,9 +4,9 @@
 
 End-to-end People Analytics project developed in Databricks to transform employee data into attrition indicators and business insights.
 
-The project demonstrates the data journey from raw HR data to an analytical dashboard using the Medallion Architecture.
+The project demonstrates the complete data journey from raw HR data to analytical insights using the **Medallion Architecture**.
 
-> **Note:** The IBM HR Analytics dataset is a fictional/educational dataset. The Attrition Rate shown in this project represents the proportion of records with `Attrition = Yes`; it is not a turnover rate calculated over a time period.
+> **Dataset note:** The IBM HR Analytics dataset is a fictional/educational dataset. The attrition rate represents the proportion of records with `Attrition = Yes`; it is not a period-based turnover rate.
 
 ---
 
@@ -53,7 +53,13 @@ IBM HR Analytics
    │  Attrition  │
    └─────────────┘
 
-```
+
+
+**Importante:** esse bloco tem um segundo ` ``` ` interno para o diagrama. No GitHub funciona corretamente.
+
+### Bloco 4 — Data
+
+```markdown
 ---
 
 ## Data
@@ -66,63 +72,72 @@ IBM HR Analytics
 
 **Observed attrition rate:** 16.12%
 
+
 ---
 
 ## Data Pipeline
 
-### 1. Bronze — Raw Data
+### 1. Bronze — Data Ingestion
 
-The source data is ingested into Databricks with the objective of preserving the original information before analytical transformations.
+The Bronze layer preserves the source data with minimal transformation.
 
 Main activities:
 
-- File ingestion
+- Source data ingestion
 - Schema inspection
-- Initial record validation
-- Raw data storage
+- Record validation
+- Delta table creation
+- Ingestion timestamp for traceability
+
+**Notebook:** `01_Bronze_Ingestion.py`
 
 ### 2. Silver — Data Quality & Transformation
 
-The Silver layer prepares the data for analysis.
+The Silver layer prepares the data for analytical use.
 
 Main activities:
 
-- Data type validation
-- Duplicate checks
-- Null-value checks
-- Standardization of categorical fields
-- Validation of business rules
-- Preparation of analytical attributes
+- Column name standardization
+- Identifier validation
+- Duplicate removal
+- Text standardization
+- Creation of `attrition_flag`
+- Creation of analytical labels
+- Data quality validation
+
+**Notebook:** `02_Silver_Data_Quality.py`
 
 ### 3. Gold — People Analytics
 
-The Gold layer contains business-oriented metrics used by the dashboard.
+The Gold layer transforms the cleaned data into business-oriented HR indicators.
 
-Examples:
+The following analytical tables were created:
 
-- Employee count
-- Attrition count
-- Attrition rate
-- Attrition by overtime
-- Attrition by business travel
-- Attrition by department
-- Attrition by job role
+| Gold Table | Purpose |
+|---|---|
+| `workforce_gold` | Overall workforce and attrition indicators |
+| `attrition_by_department_gold` | Attrition by department |
+| `attrition_by_travel_gold` | Attrition by business travel |
+| `attrition_by_overtime_gold` | Attrition by overtime |
+| `attrition_by_role_gold` | Attrition by job role |
+
+**Notebook:** `03_Gold_People_Analytics.py`
 
 ---
 
 ## Dashboard
 
-![People Analytics — Attrition](dashboard_attrition.png)
+![People Analytics — Employee Attrition](./dashboard_attrition.png)
 
-### Main indicators
+### Main Indicators
 
 | Indicator | Result |
 |---|---:|
 | Employees | 1,470 |
 | Attritions | 237 |
-| Attrition Rate | 16.12% |
+| Observed Attrition Rate | 16.12% |
 
-### Analytical dimensions
+### Analytical Dimensions
 
 - **Overtime**
 - **Business Travel**
@@ -133,20 +148,54 @@ Examples:
 
 ## Key Analytical Observations
 
-The dashboard shows differences in observed attrition across the analyzed employee groups.
+The dashboard identifies differences in observed attrition across employee groups.
 
-For example, the observed attrition proportion is higher among employees classified with overtime than among those without overtime.
+### Overtime
 
-This represents an **association in the dataset**, not evidence that overtime causes attrition.
+Employees classified with overtime present a higher observed attrition proportion than employees without overtime in this dataset.
 
-The same approach is applied to business travel, department and job role: the dashboard identifies patterns that can be investigated further rather than establishing causality.
+- Overtime: **30.53%**
+- No overtime: **10.44%**
+
+This represents an association observed in the dataset and should not be interpreted as evidence that overtime causes attrition.
+
+### Business Travel
+
+Observed attrition also differs according to travel frequency.
+
+- Travel Frequently: **24.91%**
+- Travel Rarely: **14.96%**
+- Non-Travel: **8.00%**
+
+### Department
+
+Observed attrition differs across departments:
+
+- Sales: **20.63%**
+- Human Resources: **19.05%**
+- Research & Development: **13.84%**
+
+### Job Role
+
+Observed attrition also varies across job roles.
+
+Examples include:
+
+- Sales Representative: **39.76%**
+- Laboratory Technician: **23.94%**
+- Human Resources: **23.08%**
+- Sales Executive: **17.48%**
+- Research Scientist: **16.10%**
+
+These results describe patterns observed in this dataset. They do not establish causal relationships between employee characteristics and attrition.
 
 ---
 
 ## Technical Stack
 
 - **Databricks**
-- **Apache Spark / PySpark**
+- **Apache Spark**
+- **PySpark**
 - **SQL**
 - **Delta Lake**
 - **Medallion Architecture**
@@ -157,46 +206,185 @@ The same approach is applied to business travel, department and job role: the da
 
 ## Skills Demonstrated
 
-### Data
+### Data Engineering
 
 - Data ingestion
 - Data profiling
+- Schema inspection
 - Data quality validation
 - Data transformation
+- Deduplication
 - Aggregation
-- Analytical data modeling
+- Delta table creation
+- Medallion Architecture
 
 ### Databricks
 
 - Databricks notebooks
-- SQL
 - PySpark
 - DataFrames
-- Delta-based data layers
-- Medallion Architecture
-- Dashboard creation
+- Spark functions
+- Delta Lake
+- Table creation
+- Table validation
+- Analytical dashboards
 
 ### People Analytics
 
 - Attrition analysis
 - HR KPI definition
 - Workforce segmentation
+- Employee data analysis
 - Business-oriented data interpretation
-- Distinction between association and causality
+- Analytical storytelling
+- Association versus causality
+
+---
+
+## Data Quality
+
+The Silver layer includes several data quality controls:
+
+- Validation of employee identifiers
+- Duplicate detection and removal
+- Standardization of column names
+- Standardization of categorical fields
+- Creation of analytical flags
+- Validation of attrition categories
+- Record count validation between layers
+
+The final dataset contains **1,470 employee records**, including **237 records with `Attrition = Yes`**.
+
+---
+
+## Project Validation
+
+The complete pipeline was validated after the Gold layer was created.
+
+### Workforce validation
+
+```text
+Employees: 1470
+Attritions: 237
+Attrition Rate: 16.12%
+
+workforce_gold
+attrition_by_department_gold
+attrition_by_travel_gold
+attrition_by_overtime_gold
+attrition_by_role_gold
+
+
+### Bloco 12 — Project Structure
+
+```markdown
+---
+
+## Project Structure
+
+```text
+people-analytics-attrition/
+│
+├── 01_Bronze_Ingestion.py
+├── 02_Silver_Data_Quality.py
+├── 03_Gold_People_Analytics.py
+├── dashboard_attrition.png
+└── README.md
+
+
+### Bloco 13 — Medallion Architecture
+
+```markdown
+---
+
+## Medallion Architecture
+
+The project follows a three-layer architecture:
+
+### Bronze
+
+Raw source data with minimal transformation and ingestion traceability.
+
+### Silver
+
+Validated, standardized and deduplicated employee data prepared for analysis.
+
+### Gold
+
+Business-oriented analytical tables containing People Analytics indicators.
+
+```text
+Bronze
+  │
+  │ Data ingestion
+  ▼
+Silver
+  │
+  │ Data quality & transformation
+  ▼
+Gold
+  │
+  │ Business indicators
+  ▼
+Dashboard
+
+
+
+### Bloco 14 — Business Value
+
+```markdown
+---
+
+## Business Value
+
+The project demonstrates how HR data can be transformed into structured analytical information to support People Analytics initiatives.
+
+The resulting data model can support questions related to:
+
+- Workforce composition
+- Employee attrition
+- Workforce segmentation
+- HR indicators
+- Organizational patterns
+- Further statistical analysis
+- Future predictive modeling
+
+The analysis provides a foundation for moving from descriptive analytics toward more advanced People Analytics applications.
+
+---
+
+## Limitations
+
+This project uses the IBM HR Analytics dataset, which is a fictional/educational dataset.
+
+The analysis has important limitations:
+
+- It does not represent a real organization's workforce.
+- The dataset does not provide a longitudinal employee history suitable for calculating period-based turnover.
+- The observed attrition rate represents the proportion of records where `Attrition = Yes`.
+- Differences between groups should not be interpreted as causal effects.
+- Further statistical and multivariate analysis would be required to investigate relationships between variables.
+
 
 ---
 
 ## Next Steps
 
-Potential extensions of the analysis:
+Potential extensions of the project include:
 
 - Attrition by age group
 - Attrition by salary band
 - Attrition by years at company
 - Attrition by job level
 - Employee satisfaction analysis
+- Correlation analysis
 - Multivariate analysis
+- Statistical hypothesis testing
 - Predictive attrition modeling
+- Machine learning classification
+- Model explainability
+- Workforce risk segmentation
+
 
 ---
 
