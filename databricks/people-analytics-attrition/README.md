@@ -269,10 +269,6 @@ attrition_by_overtime_gold
 attrition_by_role_gold
 
 
-### Bloco 12 — Project Structure
-
-```markdown
-```
 ## Project Structure
 
 
