@@ -127,6 +127,8 @@ The following analytical tables were created:
 
 ## Dashboard
 
+The final dashboard presents the main People Analytics indicators and the observed attrition patterns identified in the dataset.
+
 ![People Analytics — Employee Attrition](./dashboard_attrition.png)
 
 ### Main Indicators
@@ -139,11 +141,12 @@ The following analytical tables were created:
 
 ### Analytical Dimensions
 
+The dashboard analyzes observed attrition across:
+
 - **Overtime**
 - **Business Travel**
 - **Department**
 - **Job Role**
-
 ---
 
 ## Key Analytical Observations
