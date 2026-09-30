@@ -67,7 +67,7 @@ Analysis of workforce investment and economic performance using public SEC 10-K 
 
 <p align="center">
 <a href="databricks/people_economics/">
-<img src="databricks/people_economics/infografico-people-economics.png" width="900">
+<img src="databricks/people_economics/infografico-people-economics.png" width="800">
 </a>
 </p>
 
