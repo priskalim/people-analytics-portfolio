@@ -42,7 +42,41 @@ A complete People Analytics case study developed to demonstrate data-driven work
 - 📂 Sample Dataset
 
   ---
+## Featured Projects
 
+## Featured Projects
+
+### 1. People Economics — Databricks
+
+**People Analytics | Workforce Planning | People Economics | Databricks**
+
+Analysis of workforce investment and economic performance using public SEC 10-K data.
+
+**Highlights:**
+
+- 19,014 SEC records explored
+- 5 American companies analyzed
+- Revenue per Employee
+- Operating Income per Employee
+- People Cost per Employee
+- People Cost / Revenue
+- People ROI
+- Investment sensitivity scenarios
+- From exploratory analysis to business insights
+
+[View Project →](databricks/people_economics/)
+
+![People Economics — Infographic](databricks/people_economics/infografico_people_economics.png)
+
+---
+
+### 2. People Analytics — Employee Attrition
+
+**People Analytics | Power BI | Databricks | SQL**
+
+Analysis of employee attrition using the IBM HR Analytics dataset.
+
+[View Project →](databricks/people-analytics-attrition/)
 ### 🧠 People Analytics — Employee Attrition
 
 <p align="center">
@@ -71,12 +105,14 @@ An end-to-end People Analytics project developed in **Databricks** using **Pytho
 ## 📊 Portfolio Highlights
 
 | Project | Description |
-|---------|-------------|
-| [📈 Business Case](business-case/) | Workforce Planning case study for a fictional manufacturing company |
-| [🧠 Employee Attrition — Databricks](databricks/people-analytics-attrition/) | End-to-end People Analytics project using Databricks, Python/PySpark and Medallion Architecture |
-| [📊 Power BI Dashboard](business-case/dashboard-power-bi.pdf) | Interactive HR dashboard with KPIs and workforce metrics |
-| [📉 Excel Dashboard](business-case/dashboard-excel.pdf) | Executive dashboard developed in Microsoft Excel |
-| [🎨 Brand Book](brand-book/brand-book-priscila-lima.pdf) | Personal visual identity and branding guide |
+|---|---|
+| 📊 [People Economics — Databricks](databricks/people_economics/) | People Economics analysis using SEC 10-K data, workforce metrics and economic scenarios |
+| 🏭 [Business Case](business-case/) | Workforce Planning case study for a fictional manufacturing company |
+| 🧠 [Employee Attrition — Databricks](databricks/people-analytics-attrition/) | End-to-end People Analytics project using Databricks, Python/PySpark and Medallion Architecture |
+| 📊 [Power BI Dashboard](business-case/dashboard-power-bi.pdf) | Interactive HR dashboard with KPIs and workforce metrics |
+| 📈 [Excel Dashboard](business-case/dashboard-excel.pdf) | Executive dashboard developed in Microsoft Excel |
+| 🎨 [Brand Book](brand-book/brand-book-priscila-lima.pdf) | Personal visual identity and branding guide |
+
 
 <a id="skills"></a>
 ## 🛠 Technical Skills
