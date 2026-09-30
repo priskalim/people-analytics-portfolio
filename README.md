@@ -42,7 +42,6 @@ A complete People Analytics case study developed to demonstrate data-driven work
 - 📂 Sample Dataset
 
   ---
-## Featured Projects
 
 ## Featured Projects
 
@@ -67,11 +66,7 @@ Analysis of workforce investment and economic performance using public SEC 10-K 
 [View Project →](databricks/people_economics/)
 
 
-<p align="center">
-  <a href="databricks/people_economics/">
-    <img src="databricks/people_economics/infografico_people_economics.png" width="900">
-  </a>
-</p>
+<img src="https://raw.githubusercontent.com/priskalim/people-analytics-portfolio/main/databricks/people_economics/infografico_people_economics.png" width="900">
 
 ---
 
